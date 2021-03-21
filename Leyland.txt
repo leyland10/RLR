@@ -1,0 +1,22 @@
+public class Leyland extends Rae{
+	private int horseCompeted;
+	private String birthYear;
+
+	public Leyland(String name, String color, int horseCompeted, String Year){
+	super (name, color);
+	setRhorse(horseCompeted);
+	setBirthYear(birthYear);
+}
+	public int getRhorse(){
+	return horseCompeted;
+	}
+  	public void setRhorse (int horseCompeted){
+    	this.horseCompeted= horseCompeted;
+}
+	public String getYear(){
+	return birthYear;
+	}
+  	 public void setYear(String birthYear){
+	this.birthYear=birthYear;
+	}
+}
