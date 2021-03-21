@@ -1,0 +1,24 @@
+public class Rangerlyn{
+	public static void main (String[] args){
+		RaceHorse rh1 = new RaceHorse("Leyland","Blue", "2000", 10);
+		RaceHorse rh2 = new RaceHorse("Raeggie","Red", "2015", 16);
+		RaceHorse rh3 = new RaceHorse("Rangerlyn","Yellow", "2019", 20);
+      	
+System.out.println("NAME : "+ rh.getName());
+	System.out.println("HORSE COLOR : "+ rh.getColor());
+	System.out.println("BIRTH YEAR : "+ rh.getYear());
+	System.out.println("NUMBER OF RACE COMPETED : "+ rh.getRhorse());
+
+System.out.println("NAME : "+ rh1.getName());
+	System.out.println("HORSE COLOR : "+ rh1.getColor());
+	System.out.println("BIRTH YEAR : "+ rh1.getYear());
+	System.out.println("NUMBER OF RACE COMPETED : "+ rh1.getRhorse());
+
+System.out.println("NAME : "+ rh2.getName());
+	System.out.println("HORSE COLOR : "+ rh2.getColor());
+	System.out.println("BIRTH YEAR : "+ rh2.getYear());
+	System.out.println("NUMBER OF RACE COMPETED : "+ rh2.getRhorse());
+
+
+}
+}
